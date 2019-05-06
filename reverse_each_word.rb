@@ -8,4 +8,7 @@ def reverse_each_word(sentence_string)
 end
 =end
 
-reverse_each_word.collect
+def reverse_each_word(sentence_string)
+  sentence_string.collect do |string| string.reverse!
+  end
+end
